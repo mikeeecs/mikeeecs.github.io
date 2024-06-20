@@ -1,0 +1,37 @@
+textarea {
+    resize: none;
+    border-radius: 5px;
+    border: 2px;
+    width: 100px;
+    height: 60px;
+    outline: none;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    background-color: lavender;
+    color: midnightblue;
+}
+textarea:hover {
+    cursor: pointer;
+    background-color: lavenderblush;
+}
+.button {
+    border: 0px;
+    border-radius: 5px;
+}
+.Konversi {
+    background-color: green;
+    color: whitesmoke;
+}
+#Reset {
+    background-color: red;
+    color: white;
+}
+#Reverse {
+    background-color: blue;
+    color: white;
+}
+.container.row{
+    background-color: red;
+}

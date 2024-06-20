@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>WEBSITE KONVERSI SUHU</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align: center; font-family: cursive; background-image: linear-gradient(gray, silver, white);">Website Konversi Suhu</h1>
+    </header>
+
+    <main>
+        <p> Selamat datang ! </p>
+        <p> kamu bingung untuk mengkonversikan dari suhu &deg;Celcius menjadi &deg;Fahrenheit?</p>
+        <p> website ini akan membantu kamu !</p>
+        <br>
+        <div style="display: flex; flex-direction: row; margin-bottom: 25px;">
+        <section>
+            <header>
+                <h3>Celcius (&deg;C)</h3>
+            </header>
+            
+            <section>
+                <textarea id="inputCelcius" placeholder="celcius" style="font-size: smaller; text-align: center;" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)"></textarea>
+                <section>
+                    <button id="konversi">Konversi</button>
+                    <button>Reset</button>
+                    <button>Reverse</button>
+                </section>
+            </section>
+        </section>
+        <p></p>
+        <section>
+            
+            <header>
+                <h3>Fahrenheit (&deg;F)</h3>
+            </header>
+
+            <section>
+                <textarea id="outputFahrenheit" placeholder="fahrenheit" style="font-size: smaller; text-align: center; "></textarea>
+            </section>
+        </section>
+        </div>
+
+        <section>
+            Section Calculate
+            <header>
+                <h3>Cara Kalkulasi</h3>
+
+                <section>
+                    <textarea style="font-size: smaller; text-align: center; "></textarea>
+                </section>
+            </header>
+         </section>
+               
+         <section>
+            Section Rumus Konversi
+            <header>
+                <h2>Cara Konversi Celcius (&deg;C) ke Fahrenheit (&deg;F)</h2>
+            </header>
+            <hr>
+            <h4>Rumus cara konversi derajat Fahrenheit (&deg;F) menjadi dalam derajat Celcius (&deg;C) adalah</h4>
+            <h4> &deg;C = &deg;F x 9/5 + 32 </h4>
+            <p></p>
+        </section>
+
+    </main>
+</body>
+</html>
